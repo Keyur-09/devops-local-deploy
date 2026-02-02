@@ -47,6 +47,12 @@ CD:
 Endpoint:
  This endpoint is used to check whether the application is running or not.
 
+## Observability & Reliability
+- Application logs were checked using docker logs
+- Health endpoint was used to verify application status
+- Application container was stopped and restarted to test recovery
+- Reverse proxy continued running during application restart
+
 ## Author
 Keyur Kyada
 
